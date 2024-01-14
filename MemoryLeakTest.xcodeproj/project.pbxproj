@@ -14,6 +14,7 @@
 		8ED0B92D2B5434F700DDA888 /* MemoryLeakTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B92C2B5434F700DDA888 /* MemoryLeakTestTests.swift */; };
 		8ED0B9372B5434F700DDA888 /* MemoryLeakTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9362B5434F700DDA888 /* MemoryLeakTestUITests.swift */; };
 		8ED0B9392B5434F800DDA888 /* MemoryLeakTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9382B5434F800DDA888 /* MemoryLeakTestUITestsLaunchTests.swift */; };
+		8ED0B9462B5435F000DDA888 /* AClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9452B5435F000DDA888 /* AClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8ED0B9322B5434F700DDA888 /* MemoryLeakTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryLeakTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED0B9362B5434F700DDA888 /* MemoryLeakTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakTestUITests.swift; sourceTree = "<group>"; };
 		8ED0B9382B5434F800DDA888 /* MemoryLeakTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8ED0B9452B5435F000DDA888 /* AClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				8ED0B91D2B5434F500DDA888 /* ContentView.swift */,
 				8ED0B91F2B5434F700DDA888 /* Assets.xcassets */,
 				8ED0B9212B5434F700DDA888 /* Preview Content */,
+				8ED0B9452B5435F000DDA888 /* AClass.swift */,
 			);
 			path = MemoryLeakTest;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED0B9462B5435F000DDA888 /* AClass.swift in Sources */,
 				8ED0B91E2B5434F500DDA888 /* ContentView.swift in Sources */,
 				8ED0B91C2B5434F500DDA888 /* MemoryLeakTestApp.swift in Sources */,
 			);
