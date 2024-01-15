@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8ED0B91C2B5434F500DDA888 /* MemoryLeakTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B91B2B5434F500DDA888 /* MemoryLeakTestApp.swift */; };
-		8ED0B91E2B5434F500DDA888 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B91D2B5434F500DDA888 /* ContentView.swift */; };
 		8ED0B9202B5434F700DDA888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0B91F2B5434F700DDA888 /* Assets.xcassets */; };
 		8ED0B9232B5434F700DDA888 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0B9222B5434F700DDA888 /* Preview Assets.xcassets */; };
 		8ED0B92D2B5434F700DDA888 /* MemoryLeakTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B92C2B5434F700DDA888 /* MemoryLeakTestTests.swift */; };
 		8ED0B9372B5434F700DDA888 /* MemoryLeakTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9362B5434F700DDA888 /* MemoryLeakTestUITests.swift */; };
 		8ED0B9392B5434F800DDA888 /* MemoryLeakTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9382B5434F800DDA888 /* MemoryLeakTestUITestsLaunchTests.swift */; };
 		8ED0B9462B5435F000DDA888 /* AClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B9452B5435F000DDA888 /* AClass.swift */; };
+		8ED0B9472B5438FA00DDA888 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0B91D2B5434F500DDA888 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,8 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED0B9462B5435F000DDA888 /* AClass.swift in Sources */,
-				8ED0B91E2B5434F500DDA888 /* ContentView.swift in Sources */,
 				8ED0B91C2B5434F500DDA888 /* MemoryLeakTestApp.swift in Sources */,
+				8ED0B9472B5438FA00DDA888 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
